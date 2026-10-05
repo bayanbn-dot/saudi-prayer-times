@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <div id="title">
+      <h1 dir="rtl" id="city">الرياض</h1>
+      <h5 dir="rtl" id="date">الجمعة - 23 Sep 2022</h5>
+      <hr />
+    </div><div id="boxs">
+
+  <div class="box">
+    <div class="name">الفجر</div>
+    <div class="time" id="fajr">--:--</div>
+  </div>
+
+  <div class="box">
+    <div class="name">الشروق</div>
+    <div class="time" id="sunrise">--:--</div>
+  </div>
+
+  <div class="box">
+    <div class="name">الظهر</div>
+    <div class="time" id="dhuhr">--:--</div>
+  </div>
+
+  <div class="box">
+    <div class="name">العصر</div>
+    <div class="time" id="asr">--:--</div>
+  </div>
+
+  <div class="box">
+    <div class="name">المغرب</div>
+    <div class="time" id="maghrib">--:--</div>
+  </div>
+
+  <div class="box">
+    <div class="name">العشاء</div>
+    <div class="time" id="isha">--:--</div>
+  </div>
+
+</div>
+
+    <select class="form-select" dir="rtl" id="cities">
+  <option selected disabled>اختر المدينة</option>
+  <option value="."></option>
+  </select>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
