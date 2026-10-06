@@ -49,7 +49,6 @@ saudi-prayer-times/
 └── README.md
 ```
 
-## العربية
 
 موقع بسيط وحديث لعرض مواقيت الصلاة في عدد من مدن المملكة العربية السعودية.
 
@@ -68,6 +67,7 @@ saudi-prayer-times/
 3. اختر المدينة.
 4. سيتم تحديث مواقيت الصلاة تلقائيًا.
 
-## Author
+
 
 Made with care as a simple front-end project for displaying prayer times in Saudi Arabia.
+Live on GitHub Pages.
